@@ -217,7 +217,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9rK-jB-tDs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="726" y="134"/>
+            <point key="canvasLocation" x="753" y="134"/>
         </scene>
         <!--Question One View Controller-->
         <scene sceneID="SW3-gR-pgL">
@@ -256,6 +256,9 @@
                                 <frame key="frameInset" minX="277" minY="523" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="AvN-VX-Dlp" kind="show" id="TV9-v3-bw4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -336,6 +339,9 @@
                                 <frame key="frameInset" minX="277" minY="420" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="2UC-V7-sad" kind="show" id="Ye2-av-qhp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dlU-V4-vkS">
                                 <frame key="frameInset" minX="51" minY="523" width="46" height="30"/>
@@ -378,6 +384,9 @@
                                 <frame key="frameInset" minX="168" minY="421" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Reset"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="ApB-Vk-3tW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
